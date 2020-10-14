@@ -4,7 +4,7 @@ Función que hace consulta a la base de datos de estaciones automáticas con la 
 
 * **ruta.lib:** indicación de la ruta en donde se encuentran instaladas las librerías de R
 
-* **nro.redes:** vector de ID de las redes que desea consultarse:
+* **nro.redes:** vector de ID de las redes que desea consultarse:</p>
                        ID = 1 - Bolsa de Cereales de Córdoba
                        ID = 2 - Bolsa de Cereales de Entre Ríos
                        ID = 3 - Servicio Meteorológico Nacional (propias)
