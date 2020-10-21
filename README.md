@@ -10,25 +10,25 @@ ID = 1 - Bolsa de Cereales de Córdoba
 
 ID = 2 - Bolsa de Cereales de Entre Ríos
 
-ID = 3 - Servicio Meteorológico Nacional (propias)</p>
+ID = 3 - Servicio Meteorológico Nacional (propias)
 
-ID = 4 - AySA</p>
+ID = 4 - AySA
 
-ID = 5 - Alumbrera (no se encuentran en funcionamiento)</p>
+ID = 5 - Alumbrera (no se encuentran en funcionamiento)
 
-ID = 6 - Azul (no se encuentran en funcionamiento)</p>
+ID = 6 - Azul (no se encuentran en funcionamiento)
 
-ID = 7 - SINARAME</p>
+ID = 7 - SINARAME
 
-ID = 8 - INTA (región provincia de Buenos Aires)</p>
+ID = 8 - INTA (región provincia de Buenos Aires)
 
-ID = 9 - Ministerio de Producción de Chaco (no se encuentran en funcionamiento)</p>
+ID = 9 - Ministerio de Producción de Chaco (no se encuentran en funcionamiento)
 
-ID = 10 - Ministerio de Producción de Corrientes</p>
+ID = 10 - Ministerio de Producción de Corrientes
 
-ID = 11 - Proyecto SOBA (Sudoeste de Buenos Aires)</p>
+ID = 11 - Proyecto SOBA (Sudoeste de Buenos Aires)
 
-ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)</p>
+ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)
   
 * **fecha.utc.ini:** indicación de la fecha inicial a consultar en el formato, YYYY-MM-DDTHH:MM:SS
 
