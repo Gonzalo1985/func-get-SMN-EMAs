@@ -44,8 +44,9 @@ install.packages("rgdal")
 install.packages("raster")
 install.packages("fields")
 ```
-Esto producirá la instalación de las librerías en su sistema. Si las librerías ya se encontraban instaladas, este paso
-debe ignorarse.
+Esto producirá la instalación de las librerías en su sistema. Si no se especifica la ruta en donde instalar las
+librerías, estas serán instaladas por default en 'Documentos' (Windows) o 'Home' (Linux) del usuario. Si las
+librerías ya se encontraban instaladas, este paso debe ignorarse.
 
 ## Ejemplo de como ejecutar la función en R:
 Se muestra un ejemplo de como utilizar la función desde R. En este caso, se hace
