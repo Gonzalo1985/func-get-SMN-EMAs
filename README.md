@@ -34,7 +34,7 @@ ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)
 
 * **fecha.utc.fin:** indicación de la fecha final a consultar en el formato, YYYY-MM-DDTHH:MM:SS
 
-Ejemplo de como ejecutar la función en R:
+# Ejemplo de como ejecutar la función en R:
 
 ```
 ruta.lib <- /ruta/en/donde/se/encuentran/instaladas/las/librerias/R
