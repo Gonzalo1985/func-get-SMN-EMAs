@@ -44,12 +44,12 @@ install.packages("rgdal")
 install.packages("raster")
 install.packages("fields")
 ```
-Esto producirá la instalación de las librerías en su sistema. Si no se especifica la ruta en donde instalar las
+Luego, esto producirá la instalación de las librerías en su sistema. Si no se especifica la ruta en donde instalar las
 librerías, estas serán instaladas por default en 'Documentos' (Windows) o 'Home' (Linux) del usuario. Si las
 librerías ya se encontraban instaladas, este paso debe ignorarse.
 
 ## Ejemplo de como ejecutar la función en R:
-Se muestra un ejemplo de como utilizar la función desde R. En este caso, se hace
+A continuación, se muestra un ejemplo de como utilizar la función desde R. En este caso, se hace
 consulta de datos de las redes de la Bolsa de Cereales de Córdoba (id = 1), Servicio
 Meteorológico Nacional (id = 3) y SINARAME (id = 7). Entre 2020-10-31T12:00:00 y 2020-11-01T12:00:00
 ```
