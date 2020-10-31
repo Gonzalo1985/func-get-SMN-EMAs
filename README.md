@@ -33,3 +33,11 @@ ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)
 * **fecha.utc.ini:** indicación de la fecha inicial a consultar en el formato, YYYY-MM-DDTHH:MM:SS
 
 * **fecha.utc.fin:** indicación de la fecha final a consultar en el formato, YYYY-MM-DDTHH:MM:SS
+
+Para correr en R, por ejemplo puede hacerse la siguiente sentencia:
+
+```{r echo=TRUE}
+func.get.SMN-EMAs(ff)
+```
+
+
