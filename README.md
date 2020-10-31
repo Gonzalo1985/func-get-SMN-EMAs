@@ -34,6 +34,19 @@ ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)
 
 * **fecha.utc.fin:** indicación de la fecha final a consultar en el formato, YYYY-MM-DDTHH:MM:SS
 
+## Instalación de librerías necesarias de R para la función:
+Primero, deben instalarse algunas librerías en R que serán necesarias para la posible ejecución de la función.
+Las librerías a instalar son: jsonlite, rgdal, raster y fields. La forma de hacerlo es a través de las siguientes
+sentencias desde la consola de R:
+```
+install.packages("jsonlite")
+install.packages("rgdal")
+install.packages("raster")
+install.packages("fields")
+```
+Esto producirá la instalación de las librerías en su sistema. Si las librerías ya se encontraban instaladas, este paso
+debe ignorarse.
+
 ## Ejemplo de como ejecutar la función en R:
 Se muestra un ejemplo de como utilizar la función desde R. En este caso, se hace
 consulta de datos de las redes de la Bolsa de Cereales de Córdoba (id = 1), Servicio
