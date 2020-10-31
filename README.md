@@ -36,7 +36,7 @@ ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)
 
 Para correr en R, por ejemplo puede hacerse la siguiente sentencia:
 
-```{r echo=TRUE}
+```{r echo = FALSE}
 func.get.SMN-EMAs(ff)
 ```
 
