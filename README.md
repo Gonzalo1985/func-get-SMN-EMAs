@@ -34,7 +34,7 @@ ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)
 
 * **fecha.utc.fin:** indicación de la fecha final a consultar en el formato, YYYY-MM-DDTHH:MM:SS
 
-## Instalación de librerías necesarias de R para la función:
+## Instalación de librerías necesarias de R para ejecución de la función:
 Primero, deben instalarse algunas librerías en R que serán necesarias para la posible ejecución de la función.
 Las librerías a instalar son: jsonlite, rgdal, raster y fields. La forma de hacerlo es a través de las siguientes
 sentencias desde la consola de R:
