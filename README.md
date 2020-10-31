@@ -34,10 +34,15 @@ ID = 12 - SAT (Sistema de la Ciudad Autónoma de Buenos Aires)
 
 * **fecha.utc.fin:** indicación de la fecha final a consultar en el formato, YYYY-MM-DDTHH:MM:SS
 
-Para correr en R, por ejemplo puede hacerse la siguiente sentencia:
+Ejemplo de como ejecutar la función en R:
 
 ```
-func.get.SMN-EMAs(ff)
+ruta.lib <- /ruta/en/donde/se/encuentran/instaladas/las/librerias/R
+ # en este caso se van a leer los datos de las redes de Córdoba, SMN y SINARAME
+nro.redes <- c(1, 3, 7)
+fecha.utc.ini <- "2020-10-31T12:00:00"
+fecha.utc.fin <- "2020-11-01T12:00:00"
+func_get_SMN_EMAs(ruta.lib, nro.redes, fecha.utc.ini, fecha.utc.fin)
 ```
 
 
