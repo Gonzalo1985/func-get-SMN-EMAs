@@ -80,7 +80,7 @@ Ejemplo de como ejecutar la función en R:
 A continuación, se muestra un ejemplo de como utilizar la función desde R. En este caso, se hace consulta de datos de las redes de la Bolsa de Cereales de Córdoba (id = 1), Servicio Meteorológico Nacional (id = 3) y SINARAME (id = 7).
 
 ``` r
-ruta.lib <- "/data/R-libs/x86_64-pc-linux-gnu-library/3.4/"
+ruta.lib <- "/data/R-libs/x86_64-pc-linux-gnu-library/3.4/"   # modificar esta ruta
 nro.redes <- c(1, 3, 7)
 fecha.utc.ini <- "2020-10-21T12:00:00"
 fecha.utc.fin <- "2020-10-21T12:10:00"
@@ -91,7 +91,7 @@ Entonces, primero se generan las cuatro variables que la función requiere. La r
 Luego, se ejecuta la función de la siguiente manera, dando como resultado una tabla con los datos:
 
 ``` r
-source("/home/hidro/funciones-R/func-get-SMN-EMAs/func-get-SMN-EMAs.R")
+source("/home/hidro/funciones-R/func-get-SMN-EMAs/func-get-SMN-EMAs.R") # modificar la ruta en donde se encuentra la función
 func_get_SMN_EMAs(ruta.lib, nro.redes, fecha.utc.ini, fecha.utc.fin)
 ```
 
