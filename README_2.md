@@ -40,17 +40,34 @@ Instalación de librerías necesarias de R para ejecución de la función:
 
 Primero, deben instalarse algunas librerías en R que serán necesarias para la posible ejecución de la función. Las librerías a instalar son: jsonlite, rgdal, raster y fields. La forma de hacerlo es a través de las siguientes sentencias desde la consola de R:
 
+``` r
+install.packages("jsonlite")
+```
+
     ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
     ## (as 'lib' is unspecified)
+
+``` r
+install.packages("rgdal")
+```
+
     ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
     ## (as 'lib' is unspecified)
 
     ## Warning: package 'rgdal' is not available (for R version 3.4.4)
 
+``` r
+install.packages("raster")
+```
+
     ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
     ## (as 'lib' is unspecified)
 
     ## Warning: package 'raster' is not available (for R version 3.4.4)
+
+``` r
+install.packages("fields")
+```
 
     ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
     ## (as 'lib' is unspecified)
@@ -72,6 +89,11 @@ fecha.utc.fin <- "2020-10-21T12:10:00"
 Entonces, primero se generan las cuatro variables que la función requiere. La ruta en donde se encuentran las librerías de R, los números de redes que quieren consultarse y el período de la consulta, entre 2020-10-21T12:00:00 y 2020-10-21T12:10:00.
 
 Luego, se ejecuta la función de la siguiente manera, dando como resultado una tabla con los datos:
+
+``` r
+source("/home/hidro/funciones-R/func-get-SMN-EMAs/func-get-SMN-EMAs.R")
+func_get_SMN_EMAs(ruta.lib, nro.redes, fecha.utc.ini, fecha.utc.fin)
+```
 
     ## [[1]]
     ##    idEstacion longitud  latitud idPropietario           fechaHora
