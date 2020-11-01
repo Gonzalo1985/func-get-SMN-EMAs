@@ -42,35 +42,10 @@ Primero, deben instalarse algunas librerías en R que serán necesarias para la 
 
 ``` r
 install.packages("jsonlite")
-```
-
-    ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
-    ## (as 'lib' is unspecified)
-
-``` r
 install.packages("rgdal")
-```
-
-    ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
-    ## (as 'lib' is unspecified)
-
-    ## Warning: package 'rgdal' is not available (for R version 3.4.4)
-
-``` r
 install.packages("raster")
-```
-
-    ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
-    ## (as 'lib' is unspecified)
-
-    ## Warning: package 'raster' is not available (for R version 3.4.4)
-
-``` r
 install.packages("fields")
 ```
-
-    ## Installing package into '/home/hidro/R/x86_64-pc-linux-gnu-library/3.4'
-    ## (as 'lib' is unspecified)
 
 Luego, esto producirá la instalación de las librerías en su sistema. Si no se especifica la ruta en donde instalar las librerías, estas serán instaladas por default en 'Documentos' (Windows) o 'Home' (Linux) del usuario. Si las librerías ya se encontraban instaladas, este paso debe ignorarse.
 
